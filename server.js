@@ -31,7 +31,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to the get application." });
+  res.json({ message: "Welcome to the mytask application " });
 });
 
 // set port, listen for requests
